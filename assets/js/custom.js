@@ -90,17 +90,6 @@ jQuery(function($) {
     return false;
   });
 
-/* ------ Countdown ----- */
-
-  $('#countdown').countdown({
-		date: '12/07/2017 12:00:00',
-		offset: +2,
-		day: 'Day',
-		days: 'Days'
-	 }, function () {
-		alert('Done!');
-	});
-
 /* ------ jQuery for Easing min -- */
 
   $(function() {
